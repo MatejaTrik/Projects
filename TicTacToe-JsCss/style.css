@@ -1,0 +1,58 @@
+.container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 310px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: 1px solid black;
+  }
+  
+  .container h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 80px;
+      color: #990000;
+      border:1px solid black;
+      background-color: rgba(128, 128, 128, 0.4);
+      
+  }
+  
+  .row {
+    height: 100px;
+  }
+  
+  .col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .col:hover {
+      background-color: lightgray;
+  }
+  
+  .border-b {
+    border-bottom: 10px solid  rgba(128, 128, 128, 0.8);
+  }
+  
+  .border-r {
+    border-right: 10px solid  rgba(128, 128, 128, 0.8);
+  }
+  
+  .winner {
+      color: blue;
+  }
+  
+  body  {
+      background-image: url("./background.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
